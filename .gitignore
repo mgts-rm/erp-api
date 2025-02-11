@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+
+# Environment files
+# .env*
+# !.env.example  # Allow an example env file for reference
+
+# Build files
+dist/
+out/
+tmp/
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# IDE/Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# TypeScript cache
+.cache/
+.eslintcache
+.nyc_output/
+coverage/
+
+# Docker files
+docker-compose.override.yml
